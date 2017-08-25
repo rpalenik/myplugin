@@ -17,7 +17,7 @@ def setup_package():
           use_pyscaffold=True,
           entry_points={
           'stevedore.example.formatter': [
-              'mysimple = myplugin.myplugin.myformat:MySimple',
+              'mysimple = myplugin.myformat:MySimple',
           ]})
 
 
